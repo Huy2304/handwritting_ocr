@@ -8,7 +8,7 @@ from PIL import Image
 # =========================
 # CONFIG
 # =========================
-IMAGE_PATH = "input1.jpg"
+IMAGE_PATH = "anh/image1.png"
 
 if not os.path.exists(IMAGE_PATH):
     raise FileNotFoundError("❌ Không tìm thấy ảnh")
